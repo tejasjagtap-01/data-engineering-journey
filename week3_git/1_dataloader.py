@@ -26,7 +26,7 @@ class DataLoader:
 if __name__ == "__main__":
     # This block ONLY runs when you execute dataloader.py directly.
     # It gets completely SKIPPED when imported into another file.
-    race_results = DataLoader(r"C:\Users\tejas\OneDrive\Desktop\claude\fact_lap_times.csv")
+    race_results = DataLoader("data/fact_lap_times.csv")
     r = race_results.load()
     # race_results.clean()
     # race_results.summary()
